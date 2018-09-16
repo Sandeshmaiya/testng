@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Loan Depeartment]" parallel="tests">
+  <listeners>
+    <listener class-name="testpackage.Listeners"/>
+  </listeners>
+  <test thread-count="2" name="Regression_test(failed)" parallel="tests">
+    <parameter name="URL" value="google.com"/>
+    <classes>
+      <class name="testpackage.Day2">
+        <methods>
+          <include name="Suitenew"/>
+          <include name="postrequites"/>
+          <include name="Supertest"/>
+          <include name="prerequites"/>
+          <include name="atest3"/>
+          <include name="SuiteExecution"/>
+          <include name="Supertest2"/>
+        </methods>
+      </class> <!-- testpackage.Day2 -->
+    </classes>
+  </test> <!-- Regression_test(failed) -->
+</suite> <!-- Failed suite [Loan Depeartment] -->

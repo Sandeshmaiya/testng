@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="9" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Depeartment" duration-ms="4047" started-at="2018-05-14T09:47:32Z" finished-at="2018-05-14T09:47:36Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day4.WebloginHomeloan()[pri:0, instance:testpackage.Day4@4501b7af]" name="WebloginHomeloan" class="testpackage.Day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Regression two " duration-ms="53" started-at="2018-05-14T09:47:32Z" finished-at="2018-05-14T09:47:33Z">
+      <class name="testpackage.Day2">
+        <test-method status="PASS" signature="Suitenew()[pri:0, instance:testpackage.Day2@62ee68d8]" name="Suitenew" is-config="true" duration-ms="11" started-at="2018-05-14T09:47:32Z" finished-at="2018-05-14T09:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Suitenew -->
+        <test-method status="PASS" signature="SuiteExecution()[pri:0, instance:testpackage.Day2@62ee68d8]" name="SuiteExecution" is-config="true" duration-ms="0" started-at="2018-05-14T09:47:37Z" finished-at="2018-05-14T09:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteExecution -->
+      </class> <!-- testpackage.Day2 -->
+      <class name="testpackage.Day4">
+        <test-method status="PASS" signature="ApiloginHomeloan(java.lang.String, java.lang.String)[pri:0, instance:testpackage.Day4@4501b7af]" name="ApiloginHomeloan" duration-ms="12" started-at="2018-05-14T09:47:32Z" data-provider="getdata" finished-at="2018-05-14T09:47:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1st set User name ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1st Set password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiloginHomeloan -->
+        <test-method status="PASS" signature="ApiloginHomeloan(java.lang.String, java.lang.String)[pri:0, instance:testpackage.Day4@4501b7af]" name="ApiloginHomeloan" duration-ms="2" started-at="2018-05-14T09:47:32Z" data-provider="getdata" finished-at="2018-05-14T09:47:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2nd set User name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2nd Set password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiloginHomeloan -->
+        <test-method status="PASS" signature="ApiloginHomeloan(java.lang.String, java.lang.String)[pri:0, instance:testpackage.Day4@4501b7af]" name="ApiloginHomeloan" duration-ms="1" started-at="2018-05-14T09:47:32Z" data-provider="getdata" finished-at="2018-05-14T09:47:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3rd set User name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3rd Set password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiloginHomeloan -->
+        <test-method status="PASS" signature="MobileloginHomeloan(java.lang.String, java.lang.String)[pri:0, instance:testpackage.Day4@4501b7af]" name="MobileloginHomeloan" duration-ms="1" started-at="2018-05-14T09:47:32Z" finished-at="2018-05-14T09:47:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginHomeloan -->
+        <test-method status="PASS" signature="WebloginHomeloan()[pri:0, instance:testpackage.Day4@4501b7af]" name="WebloginHomeloan" duration-ms="1" started-at="2018-05-14T09:47:33Z" finished-at="2018-05-14T09:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeloan -->
+      </class> <!-- testpackage.Day4 -->
+    </test> <!-- Regression two  -->
+    <test name="Regression_test" duration-ms="4047" started-at="2018-05-14T09:47:32Z" finished-at="2018-05-14T09:47:36Z">
+      <class name="testpackage.Day2">
+        <test-method status="PASS" signature="prerequites()[pri:0, instance:testpackage.Day2@62ee68d8]" name="prerequites" is-config="true" duration-ms="1" started-at="2018-05-14T09:47:32Z" finished-at="2018-05-14T09:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequites -->
+        <test-method status="FAIL" signature="Supertest()[pri:0, instance:testpackage.Day2@62ee68d8]" name="Supertest" duration-ms="4014" started-at="2018-05-14T09:47:32Z" finished-at="2018-05-14T09:47:36Z">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method testpackage.Day2.Supertest() didn't finish within the time-out 4000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method testpackage.Day2.Supertest() didn't finish within the time-out 4000
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:69)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supertest -->
+        <test-method status="PASS" signature="Supertest2()[pri:0, instance:testpackage.Day2@62ee68d8]" name="Supertest2" duration-ms="1" started-at="2018-05-14T09:47:36Z" finished-at="2018-05-14T09:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supertest2 -->
+        <test-method status="PASS" signature="Supertest3(java.lang.String)[pri:0, instance:testpackage.Day2@62ee68d8]" name="Supertest3" duration-ms="2" started-at="2018-05-14T09:47:36Z" finished-at="2018-05-14T09:47:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supertest3 -->
+        <test-method status="SKIP" signature="atest3()[pri:0, instance:testpackage.Day2@62ee68d8]" name="atest3" duration-ms="0" started-at="2018-05-14T09:47:36Z" depends-on-methods="testpackage.Day2.Supertest, testpackage.Day2.Supertest2" finished-at="2018-05-14T09:47:36Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Day2.atest3()[pri:0, instance:testpackage.Day2@62ee68d8] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Day2.atest3()[pri:0, instance:testpackage.Day2@62ee68d8] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest3 -->
+        <test-method status="PASS" signature="postrequites()[pri:0, instance:testpackage.Day2@62ee68d8]" name="postrequites" is-config="true" duration-ms="1" started-at="2018-05-14T09:47:36Z" finished-at="2018-05-14T09:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postrequites -->
+      </class> <!-- testpackage.Day2 -->
+    </test> <!-- Regression_test -->
+  </suite> <!-- Loan Depeartment -->
+</testng-results>
